@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2325864109599808587}
   - component: {fileID: 9005341196267869837}
   - component: {fileID: 1543065089878844388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 5051478603923202295}
   - component: {fileID: 787216492689323143}
   - component: {fileID: 2716961156161292831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,6 +219,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 239e2859-ffcd-4bd6-b902-5ef271a7cc34
     m_ActionName: Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2343cd7d-9113-4894-8f51-0ddfc513892b
+    m_ActionName: Player/PrimarySpell[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a501ed8e-a031-4a87-83b4-403e171bf770
+    m_ActionName: Player/SecondarySpell[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 62369f32-02bb-405a-b0d5-d9c3985f1ec1
+    m_ActionName: Player/SpellThreeInput[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b5b07319-6f23-4829-b91a-9618427627c5
+    m_ActionName: Player/SpellFourInput[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
